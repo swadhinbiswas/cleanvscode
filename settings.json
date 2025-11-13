@@ -1,0 +1,203 @@
+{
+  // ─────────────────────────────
+  // ⚡ VISUAL & EDITOR
+  // ─────────────────────────────
+  "workbench.colorTheme": "Dracula Theme",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": true,
+  "window.menuBarVisibility": "toggle",
+  "window.zoomLevel": 0,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.lineNumbers": "on",
+  "editor.cursorBlinking": "smooth",
+  "editor.fontFamily": "'Fira Code', 'JetBrains Mono', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 22,
+  "editor.wordWrap": "on",
+  "editor.smoothScrolling": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.renderLineHighlight": "all",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.indentation": true,
+  "breadcrumbs.enabled": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+
+  // ─────────────────────────────
+  // 🧩 FILES & WORKBENCH
+  // ─────────────────────────────
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1500,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/__pycache__": true,
+    "**/.next": true,
+    "**/.nuxt": true,
+    "**/coverage": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.next": true,
+    "**/coverage": true,
+    "**/*.lock": true
+  },
+
+  // ─────────────────────────────
+  // ⚙️ TERMINAL CONFIG (EXTERNAL ONLY)
+  // ─────────────────────────────
+  // This ensures terminal ALWAYS opens externally
+  "terminal.explorerKind": "external",
+  "terminal.external.linuxExec": "kitty",
+  "terminal.sourceControlRepositoriesKind": "external",
+
+  // Integrated terminal config (for when accidentally triggered)
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.smoothScrolling": true,
+
+  // ─────────────────────────────
+  // 🧠 COPILOT & AI INTELLIGENCE
+  // ─────────────────────────────
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true,
+    "plaintext": false
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.inlineSuggest.enable": true,
+  "github.copilot.editor.enableCodeActions": true,
+
+  // Enhanced Copilot Chat
+  "github.copilot.chat.followUps": "always",
+  "github.copilot.chat.localeOverride": "en",
+  "github.copilot.chat.runCommand.enabled": true,
+  "github.copilot.chat.terminalChatLocation": "quickChat",
+  "github.copilot.chat.welcomeMessage": "always",
+
+  // GitLens AI
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "gitlens.ai.experimental.generateCommitMessage.enabled": true,
+
+  // IntelliSense & Suggestions
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "on",
+    "strings": "on"
+  },
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "editor.inlineSuggest.enabled": true,
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.snippetSuggestions": "top",
+  "editor.suggest.preview": true,
+  "editor.suggest.showInlineDetails": true,
+
+  // ─────────────────────────────
+  // 💡 PRODUCTIVITY ENHANCEMENTS
+  // ─────────────────────────────
+  "window.restoreWindows": "none",
+  "window.openFoldersInNewWindow": "off",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 8,
+  "workbench.layoutControl.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.list.smoothScrolling": true,
+
+  // Auto Save & Recovery
+  "files.hotExit": "onExitAndWindowClose",
+  "workbench.editor.restoreViewState": true,
+
+  // Git Integration
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "always",
+  "git.postCommitCommand": "sync",
+  "scm.defaultViewMode": "tree",
+
+  // Diff Editor
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": true,
+  "diffEditor.wordWrap": "on",
+
+  // ─────────────────────────────
+  // 🚀 PERFORMANCE OPTIMIZATION
+  // ─────────────────────────────
+  "extensions.autoUpdate": true,
+  "extensions.autoCheckUpdates": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/.hg/store/**": true,
+    "**/dist/**": true,
+    "**/build/**": true
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+
+  // ─────────────────────────────
+  // 📝 LANGUAGE SPECIFIC
+  // ─────────────────────────────
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
+  },
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
+}
